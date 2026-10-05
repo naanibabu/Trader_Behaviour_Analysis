@@ -271,7 +271,7 @@ Fear has the highest total volume, mean and median trade size. Neutral and Greed
 
 Risk is measured as the standard deviation of realized PnL, with box plots for the spread.
 
-<p align="center"><img src="charts/chart011.png" alt="Realized PnL spread by sentiment" width="620"></p>
+<p align="center"><img src="charts/chart_011.png" alt="Realized PnL spread by sentiment" width="620"></p>
 
 | Sentiment | Std. dev. of realized PnL |
 | --- | ---: |
@@ -326,6 +326,32 @@ Box plots for Close Long, Close Short and Sell, since realized PnL is produced w
 Every direction shows outcomes on both sides of break-even.
 
 ---
+### 📘 Report Preview
+
+One-page dashboards from the three analysis reports. Click an image to open its PDF.
+
+#### 🔹 Univariate analysis
+
+<a href="reports/univarient_analysis_report.pdf">
+  <img src="charts/univarient.png" alt="Univariate analysis - trader behaviour" width="100%">
+</a>
+
+#### 🔹 Bivariate analysis
+
+<a href="reports/bivarient_analysis_report.pdf">
+  <img src="charts/bivarient.png" alt="Bivariate analysis - trader behaviour" width="100%">
+</a>
+
+#### 🔹 Multivariate analysis
+
+<a href="reports/multivarient_analysis_report.pdf">
+  <img src="charts/multivarient.png" alt="Multivariate analysis - trader behaviour" width="100%">
+</a>
+
+📄 [Open the full report (PDF)](Trading_Behaviour_Analysis_Report.pdf)
+
+---
+
 
 ## 💡 Key Insights
 
@@ -504,10 +530,10 @@ jupyter notebook project.ipynb
 
 | Report | File |
 | --- | --- |
-| Full report | [Trading_Behaviour_Analysis_Report.pdf](reports/Trading_Behaviour_Analysis_Report.pdf) |
-| Univariate analysis | [univariate_analysis_report.pdf](reports/univariate_analysis_report.pdf) |
-| Bivariate analysis | [bivariate_analysis_report.pdf](reports/bivariate_analysis_report.pdf) |
-| Multivariate analysis | [multivariate_analysis_report.pdf](reports/multivariate_analysis_report.pdf) |
+| Full report | [Trading_Behaviour_Analysis_Report.pdf](Trading_Behaviour_Analysis_Report.pdf) |
+| Univariate analysis | [univariate_analysis_report.pdf](reports/univarient_analysis_report.pdf) |
+| Bivariate analysis | [bivariate_analysis_report.pdf](reports/bivarient_analysis_report.pdf) |
+| Multivariate analysis | [multivariate_analysis_report.pdf](reports/multivarient_analysis_report.pdf) |
 
 The full report covers Background, Business Problem, Objective, Datasets, Methodology, Exploratory Data Analysis, Key Insights and Conclusion.
 

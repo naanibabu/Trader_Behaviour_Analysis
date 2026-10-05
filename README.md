@@ -171,7 +171,7 @@ Each variable was examined on its own, with the chart type chosen to fit the que
 
 Pie chart, to show the share of each sentiment category.
 
-<p align="center"><img src="charts/01_sentiment_distribution.png" alt="Distribution of market sentiment" width="420"></p>
+<p align="center"><img src="charts/chart_001.png" alt="Distribution of market sentiment" width="420"></p>
 
 Greed is the largest group at **42.7%**, followed by Fear at **39.4%** and Neutral at **17.8%**.
 
@@ -179,7 +179,7 @@ Greed is the largest group at **42.7%**, followed by Fear at **39.4%** and Neutr
 
 Histogram on a log x-axis. `Size USD` is the notional value of a trade.
 
-<p align="center"><img src="charts/02_trade_size_distribution.png" alt="Trade size distribution" width="620"></p>
+<p align="center"><img src="charts/chart_002.png" alt="Trade size distribution" width="620"></p>
 
 <details>
 <summary><b>Summary statistics</b></summary>
@@ -203,7 +203,7 @@ Trade size is strongly right-skewed. The median is $597.28 but the mean is $5,63
 
 Histogram on a symmetric log scale. Trades with `Closed PnL = 0` were excluded first, because they are opens that haven't produced a realized outcome.
 
-<p align="center"><img src="charts/04_realized_pnl_distribution.png" alt="Realized PnL distribution" width="620"></p>
+<p align="center"><img src="charts/chart_004.png" alt="Realized PnL distribution" width="620"></p>
 
 <details>
 <summary><b>Summary statistics</b></summary>
@@ -231,7 +231,7 @@ Most values sit close to zero, with a long tail of large profits and losses. The
 
 Bar chart.
 
-<p align="center"><img src="charts/03_profitable_vs_loss_trades.png" alt="Profitable vs loss trades" width="560"></p>
+<p align="center"><img src="charts/chart_003.png" alt="Profitable vs loss trades" width="560"></p>
 
 **86,753** profitable trades against **17,513** loss trades.
 
@@ -239,7 +239,7 @@ Bar chart.
 
 Bar chart.
 
-<p align="center"><img src="charts/05_trades_by_trading_type.png" alt="Trades by trading type" width="560"></p>
+<p align="center"><img src="charts/chart_005.png" alt="Trades by trading type" width="560"></p>
 
 **174,321** Perpetual trades against **36,618** Spot trades. Perpetual is the majority of activity.
 
@@ -271,7 +271,7 @@ Fear has the highest total volume, mean and median trade size. Neutral and Greed
 
 Risk is measured as the standard deviation of realized PnL, with box plots for the spread.
 
-<p align="center"><img src="charts/06_pnl_spread_by_sentiment.png" alt="Realized PnL spread by sentiment" width="620"></p>
+<p align="center"><img src="charts/chart011.png" alt="Realized PnL spread by sentiment" width="620"></p>
 
 | Sentiment | Std. dev. of realized PnL |
 | --- | ---: |
@@ -285,7 +285,7 @@ Outcomes are most spread out in Fear and Greed, and noticeably tighter in Neutra
 
 Direction counts were converted to percentages within each sentiment, shown as one pie per sentiment.
 
-<p align="center"><img src="charts/07_trade_direction_share.png" alt="Trade direction share by sentiment" width="820"></p>
+<p align="center"><img src="charts/chart_014.png" alt="Trade direction share by sentiment" width="820"></p>
 
 | Sentiment | Open Long | Close Long | Open Short | Close Short | Buy | Sell |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -303,7 +303,7 @@ Three or more variables together, to see how they interact.
 
 Box plots for the PnL distribution and a heatmap for win rate.
 
-<p align="center"><img src="charts/08_pnl_and_win_rate_by_trade_type.png" alt="Realized PnL and win rate by sentiment and trade type" width="820"></p>
+<p align="center"><img src="charts/chart_015.png" alt="Realized PnL and win rate by sentiment and trade type" width="820"></p>
 
 | Sentiment | Spot median PnL | Spot win rate | Perpetual median PnL | Perpetual win rate |
 | --- | ---: | ---: | ---: | ---: |
@@ -317,7 +317,7 @@ Perpetual has the higher win rate in Fear and Neutral. Spot has the higher win r
 
 Box plots for Close Long, Close Short and Sell, since realized PnL is produced when positions close.
 
-<p align="center"><img src="charts/09_pnl_by_position_direction.png" alt="Realized PnL by position direction and sentiment" width="720"></p>
+<p align="center"><img src="charts/chart_016.png" alt="Realized PnL by position direction and sentiment" width="720"></p>
 
 - **Close Long:** median PnL is positive in all three sentiments, higher in Greed and Fear than in Neutral.
 - **Close Short:** Fear and Neutral have higher medians than Greed.
